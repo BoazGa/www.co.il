@@ -6,69 +6,123 @@
   <title>ממצים עושר, מגשימים אושר</title>
   <meta name="description" content="ליווי פיננסי לימודי־יישומי לצמיחה כלכלית ואישית מודעת"/>
   <style>
-    body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      margin: 0;
-      background: #ffffff;
-      color: #111;
-      line-height: 1.75;
-    }
-    .container {
-      max-width: 860px;
-      margin: auto;
-      padding: 56px 20px;
-    }
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 1.2rem;
-    }
-    h2 {
-      margin-top: 4rem;
-      font-size: 1.5rem;
-    }
-    h3 {
-      margin-top: 2.5rem;
-      font-size: 1.25rem;
-    }
-    h4 {
-      margin-top: 1.5rem;
-      font-size: 1.05rem;
-    }
-    p {
-      margin: 1rem 0;
-    }
-    ul {
-      padding-right: 1.2rem;
-    }
-    li {
-      margin: 0.5rem 0;
-    }
-    .hero {
-      padding: 40px 0 60px 0;
-    }
-    .muted {
-      color: #555;
-    }
-    .cta {
-      margin-top: 32px;
-      display: inline-block;
-      padding: 12px 26px;
-      border: 1px solid #111;
-      text-decoration: none;
-      color: #111;
-      font-weight: 500;
-    }
-    .divider {
-      margin: 4rem 0;
-      border-top: 1px solid #eee;
-    }
-    footer {
-      margin-top: 5rem;
-      padding-top: 2rem;
-      border-top: 1px solid #eee;
-      font-size: 0.9rem;
-      color: #666;
-    }
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700&display=swap');
+
+:root {
+  --bg-main: #ffffff;
+  --bg-soft: #f5f7fa;
+  --text-main: #0f172a;
+  --text-muted: #475569;
+  --accent: #1e3a8a;
+  --border-soft: #e5e7eb;
+}
+
+body {
+  font-family: 'Heebo', system-ui, sans-serif;
+  margin: 0;
+  background: var(--bg-main);
+  color: var(--text-main);
+  line-height: 1.8;
+}
+
+.container {
+  max-width: 760px;
+  margin: auto;
+  padding: 72px 20px;
+}
+
+.hero {
+  padding: 80px 0;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
+}
+
+.hero p {
+  font-size: 1.15rem;
+  color: var(--text-muted);
+  max-width: 600px;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 32px;
+  padding: 14px 34px;
+  border-radius: 6px;
+  background: var(--accent);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.cta:hover {
+  background: #162d6b;
+}
+
+section {
+  margin-top: 80px;
+  padding: 48px;
+  background: var(--bg-soft);
+  border-radius: 12px;
+}
+
+section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+}
+
+section h3 {
+  font-size: 1.25rem;
+  margin-top: 2.5rem;
+}
+
+section h4 {
+  font-size: 1.05rem;
+  margin-top: 1.8rem;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+ul, ol {
+  padding-right: 1.2rem;
+}
+
+li {
+  margin: 0.6rem 0;
+}
+
+.muted {
+  color: var(--text-muted);
+}
+
+footer {
+  margin-top: 96px;
+  padding-top: 32px;
+  border-top: 1px solid var(--border-soft);
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 1.7rem;
+  }
+
+  section {
+    padding: 32px 20px;
+  }
+}
+</style>
+
   </style>
 </head>
 <body>
