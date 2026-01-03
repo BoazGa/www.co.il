@@ -6,124 +6,127 @@
   <title>ממצים עושר, מגשימים אושר</title>
   <meta name="description" content="ליווי פיננסי לימודי־יישומי לצמיחה כלכלית ואישית מודעת"/>
   <style>
-    <style>
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700&display=swap');
 
 :root {
-  --bg-main: #ffffff;
-  --bg-soft: #f5f7fa;
-  --text-main: #0f172a;
-  --text-muted: #475569;
-  --accent: #1e3a8a;
-  --border-soft: #e5e7eb;
+  --bg-dark: #0f172a;
+  --bg-light: #ffffff;
+  --bg-soft: #f6f7f9;
+  --text-dark: #0f172a;
+  --text-light: #e5e7eb;
+  --text-muted: #64748b;
+  --accent: #94a3b8;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
-  font-family: 'Heebo', system-ui, sans-serif;
   margin: 0;
-  background: var(--bg-main);
-  color: var(--text-main);
-  line-height: 1.8;
+  font-family: 'Assistant', system-ui, sans-serif;
+  line-height: 1.9;
+  background: var(--bg-light);
+  color: var(--text-dark);
 }
 
 .container {
-  max-width: 760px;
+  max-width: 680px;
   margin: auto;
-  padding: 72px 20px;
+  padding: 0 20px;
 }
 
+/* HERO */
 .hero {
-  padding: 80px 0;
+  background: var(--bg-dark);
+  color: var(--text-light);
+  padding: 140px 0 120px;
 }
 
 .hero h1 {
-  font-size: 2.2rem;
-  font-weight: 700;
-  line-height: 1.4;
-  margin-bottom: 1.5rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
 }
 
 .hero p {
   font-size: 1.15rem;
-  color: var(--text-muted);
-  max-width: 600px;
+  color: #cbd5f5;
+  max-width: 520px;
 }
 
-.cta {
+/* CTA – שקט */
+.hero a {
   display: inline-block;
-  margin-top: 32px;
-  padding: 14px 34px;
-  border-radius: 6px;
-  background: var(--accent);
-  color: #fff;
+  margin-top: 48px;
+  color: var(--text-light);
   text-decoration: none;
-  font-weight: 500;
-  transition: background 0.2s ease;
+  border-bottom: 1px solid var(--accent);
+  padding-bottom: 4px;
 }
 
-.cta:hover {
-  background: #162d6b;
-}
-
+/* SECTIONS */
 section {
-  margin-top: 80px;
-  padding: 48px;
+  padding: 100px 0;
+}
+
+section.soft {
   background: var(--bg-soft);
-  border-radius: 12px;
 }
 
 section h2 {
   font-size: 1.6rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
+  font-weight: 600;
 }
 
 section h3 {
   font-size: 1.25rem;
-  margin-top: 2.5rem;
-}
-
-section h4 {
-  font-size: 1.05rem;
-  margin-top: 1.8rem;
+  margin-top: 3rem;
+  font-weight: 600;
 }
 
 p {
-  margin: 1rem 0;
+  margin: 1.4rem 0;
 }
 
-ul, ol {
+ul {
   padding-right: 1.2rem;
 }
 
 li {
-  margin: 0.6rem 0;
+  margin: 0.8rem 0;
 }
 
-.muted {
+/* QUOTE STYLE */
+.emphasis {
+  margin: 4rem 0;
+  padding-right: 24px;
+  border-right: 3px solid var(--accent);
+  font-style: italic;
   color: var(--text-muted);
 }
 
+/* FOOTER */
 footer {
-  margin-top: 96px;
-  padding-top: 32px;
-  border-top: 1px solid var(--border-soft);
+  padding: 80px 0;
   font-size: 0.9rem;
   color: var(--text-muted);
+  border-top: 1px solid #e5e7eb;
 }
 
-/* Responsive */
-@media (max-width: 600px) {
-  .hero h1 {
-    font-size: 1.7rem;
+/* MOBILE */
+@media (max-width: 640px) {
+  .hero {
+    padding: 100px 0 80px;
   }
 
-  section {
-    padding: 32px 20px;
+  .hero h1 {
+    font-size: 1.8rem;
   }
 }
 </style>
 
-  </style>
 </head>
 <body>
 
