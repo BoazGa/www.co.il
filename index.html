@@ -1,305 +1,346 @@
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ממצים עושר, מגשימים אושר</title>
-  <meta name="description" content="ליווי פיננסי לימודי־יישומי לצמיחה כלכלית ואישית מודעת"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ממצים עושר. מגשימים אושר.</title>
+  <meta name="description" content="ליווי פיננסי פילוסופי־רעיוני לאנשים שרוצים להבין, ללמוד ולנווט בעצמם.">
+  
   <style>
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700&display=swap');
 
-:root {
-  --bg-dark: #0f172a;
-  --bg-light: #ffffff;
-  --bg-soft: #f6f7f9;
-  --text-dark: #0f172a;
-  --text-light: #e5e7eb;
-  --text-muted: #64748b;
-  --accent: #94a3b8;
-}
+    :root {
+      --bg-dark: #0f172a;
+      --bg-light: #ffffff;
+      --bg-soft: #f6f7f9;
+      --text-dark: #0f172a;
+      --text-light: #e5e7eb;
+      --text-muted: #64748b;
+      --accent: #94a3b8;
+    }
 
-* {
-  box-sizing: border-box;
-}
+    * {
+      box-sizing: border-box;
+    }
 
-body {
-  margin: 0;
-  font-family: 'Assistant', system-ui, sans-serif;
-  line-height: 1.9;
-  background: var(--bg-light);
-  color: var(--text-dark);
-}
+    body {
+      margin: 0;
+      font-family: 'Assistant', system-ui, sans-serif;
+      line-height: 1.9;
+      background: var(--bg-light);
+      color: var(--text-dark);
+    }
 
-.container {
-  max-width: 680px;
-  margin: auto;
-  padding: 0 20px;
-}
+    .container {
+      max-width: 680px;
+      margin: auto;
+      padding: 0 20px;
+    }
 
-/* HERO */
-.hero {
-  background: var(--bg-dark);
-  color: var(--text-light);
-  padding: 140px 0 120px;
-}
+    /* HERO */
+    .hero {
+      background: var(--bg-dark);
+      color: var(--text-light);
+      padding: 140px 0 120px;
+    }
 
-.hero h1 {
-  font-size: 2.4rem;
-  font-weight: 600;
-  margin-bottom: 2rem;
-}
+    .hero h1 {
+      font-size: 2.4rem;
+      font-weight: 600;
+      margin-bottom: 2rem;
+    }
 
-.hero p {
-  font-size: 1.15rem;
-  color: #cbd5f5;
-  max-width: 520px;
-}
+    .hero p {
+      font-size: 1.15rem;
+      color: #cbd5f5;
+      max-width: 520px;
+    }
 
-/* CTA – שקט */
-.hero a {
-  display: inline-block;
-  margin-top: 48px;
-  color: var(--text-light);
-  text-decoration: none;
-  border-bottom: 1px solid var(--accent);
-  padding-bottom: 4px;
-}
+    .hero .continue {
+      display: inline-block;
+      margin-top: 48px;
+      color: var(--text-light);
+      text-decoration: none;
+      border-bottom: 1px solid var(--accent);
+      padding-bottom: 4px;
+      font-size: 0.95rem;
+    }
 
-/* SECTIONS */
-section {
-  padding: 100px 0;
-}
+    /* SECTIONS */
+    section {
+      padding: 100px 0;
+    }
 
-section.soft {
-  background: var(--bg-soft);
-}
+    section.soft {
+      background: var(--bg-soft);
+    }
 
-section h2 {
-  font-size: 1.6rem;
-  margin-bottom: 2.5rem;
-  font-weight: 600;
-}
+    section h2 {
+      font-size: 1.6rem;
+      margin-bottom: 2.5rem;
+      font-weight: 600;
+    }
 
-section h3 {
-  font-size: 1.25rem;
-  margin-top: 3rem;
-  font-weight: 600;
-}
+    p {
+      margin: 1.4rem 0;
+    }
 
-p {
-  margin: 1.4rem 0;
-}
+    ul {
+      padding-right: 1.2rem;
+    }
 
-ul {
-  padding-right: 1.2rem;
-}
+    li {
+      margin: 0.8rem 0;
+    }
 
-li {
-  margin: 0.8rem 0;
-}
+    /* EMPHASIS */
+    .emphasis {
+      margin: 4rem 0;
+      padding-right: 24px;
+      border-right: 3px solid var(--accent);
+      font-style: italic;
+      color: var(--text-muted);
+    }
 
-/* QUOTE STYLE */
-.emphasis {
-  margin: 4rem 0;
-  padding-right: 24px;
-  border-right: 3px solid var(--accent);
-  font-style: italic;
-  color: var(--text-muted);
-}
+    /* FOOTER */
+    footer {
+      padding: 80px 0;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      border-top: 1px solid #e5e7eb;
+    }
 
-/* FOOTER */
-footer {
-  padding: 80px 0;
-  font-size: 0.9rem;
-  color: var(--text-muted);
-  border-top: 1px solid #e5e7eb;
-}
+    /* MOBILE */
+    @media (max-width: 640px) {
+      .hero {
+        padding: 100px 0 80px;
+      }
 
-/* MOBILE */
-@media (max-width: 640px) {
-  .hero {
-    padding: 100px 0 80px;
-  }
-
-  .hero h1 {
-    font-size: 1.8rem;
-  }
-}
-</style>
-
+      .hero h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
 </head>
+
 <body>
 
-<div class="container">
-
-  <!-- HERO -->
-  <section class="hero">
-    <div class="container">
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
     <h1>
-      מלווה פיננסי לצמיחה כלכלית ואישית מודעת,<br/>
-      הפועל ליישור המצפן הפיננסי עם מצפן הערכים, הצרכים והרצונות האישיים,<br/>
-      באמצעות הקניית ידע וכלים לעצמאות פיננסית.
+      ממצים עושר.<br>
+      מגשימים אושר.
     </h1>
 
-    <p class="muted">
-      כשיש בהירות לגבי מי אני, מה חשוב לי ומה עושה אותי מאושר,<br/>
-      ניתן למצות את העושר בצורה מדויקת,<br/>
-      ולהפוך אותו לכלי שמקדם איכות חיים ואושר לאורך זמן.
+    <p>
+      כסף הוא לא המטרה.<br>
+      הוא כלי.<br>
+      ולא כל מי שמחזיק בו — יודע להשתמש בו נכון.
     </p>
 
-    <a href="#contact" class="cta">שיחת היכרות</a>
+    <p>
+      זהו ליווי פיננסי לאנשים<br>
+      שרוצים להבין, לכייל ולנווט בעצמם,<br>
+      בעולם שבו רוב ההחלטות מתקבלות בלי מחשבה.
+    </p>
+
+    <p>
+      זה תהליך לימודי־יישומי.<br>
+      לא ייעוץ. לא ניהול.<br>
+      למידה.
+    </p>
+
+    <a href="#start" class="continue">להמשיך לקרוא</a>
+  </div>
+</section>
+
+<!-- WHY MONEY -->
+<section id="start">
+  <div class="container">
+    <h2>למה בכלל כסף</h2>
+
+    <p>
+      כסף נוגע כמעט בכל החלטה חשובה בחיים:<br>
+      איפה נגור, איך נחיה, כמה נעבוד, ממה נחשוש, למה נשאף.
+    </p>
+
+    <p>
+      ובכל זאת —<br>
+      רוב האנשים מעולם לא למדו לחשוב עליו לעומק.
+    </p>
+
+    <p>
+      לא איך הוא עובד באמת,<br>
+      לא איך הוא משפיע על התודעה,<br>
+      ולא איך החלטות פיננסיות משקפות ערכים, פחדים ורצונות.
+    </p>
+
+    <p>
+      התוצאה כמעט תמיד זהה:<br>
+      המציאות הכלכלית מתחילה לנהל את האדם,<br>
+      במקום לשרת אותו.
+    </p>
+  </div>
+</section>
+
+<!-- POINT OF VIEW -->
+<section class="soft">
+  <div class="container">
+    <h2>נקודת המוצא שלי</h2>
+
+    <p>
+      אני לא מאמין בפתרונות מהירים.<br>
+      וגם לא בהאצלת אחריות.
+    </p>
+
+    <p>
+      אני לא מייעץ, לא מנהל כסף,<br>
+      ולא אומר לאנשים מה לעשות.
+    </p>
+
+    <p>
+      אני עוסק בלמידה.<br>
+      בהבנה.<br>
+      ובבניית יכולת קבלת החלטות.
+    </p>
+
+    <p>
+      ההנחה פשוטה:<br>
+      אדם שמבין — פועל אחרת.<br>
+      אדם שפועל אחרת — בונה מציאות אחרת.
+    </p>
+  </div>
+</section>
+
+<!-- CLARITY -->
+<section>
+  <div class="container">
+    <h2>על בהירות, ערכים וכיוון</h2>
+
+    <p>
+      לפני שמדברים על כלים,<br>
+      צריך לשאול שאלות שרוב האנשים לא עוצרים לשאול:
+    </p>
+
+    <p>
+      מה באמת חשוב לי?<br>
+      מה עושה אותי מאושר?<br>
+      איזו מציאות אני מנסה לבנות?
+    </p>
+
+    <p>
+      כשיש בהירות לגבי מי אני,<br>
+      ומה אני רוצה מהחיים —<br>
+      הכסף מפסיק להיות מקור לרעש,<br>
+      והופך לכלי מדויק.
+    </p>
+
+    <p>
+      מאחר ואין שני אנשים שחיים את אותם חיים,<br>
+      גם אין שתי דרכים פיננסיות זהות.<br>
+      התהליך אינו נבנה מראש,<br>
+      אלא מתפתח מתוך האדם עצמו —<br>
+      הערכים, המטרות, הקצב והמורכבות הייחודית שלו.
+    </p>
+
+    <p>
+      בלי בהירות —<br>
+      גם החלטה פיננסית “נכונה”<br>
+      עלולה לשרת חיים שלא רצינו.
+    </p>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="soft">
+  <div class="container">
+    <h2>איך נראה תהליך של למידה פיננסית אמיתית</h2>
+
+    <p>
+      התהליך אינו ליניארי,<br>
+      אבל יש לו היגיון פנימי ברור.
+    </p>
+
+    <p>
+      ראשית — בניית אוריינות פיננסית:<br>
+      הבנה של כסף, סיכון, זמן, החלטות וכלים.
+    </p>
+
+    <p>
+      לאחר מכן — שתי רגליים מרכזיות:
+    </p>
+
+    <p>
+      התנהלות שוטפת —<br>
+      איך כסף נכנס ויוצא בפועל,<br>
+      איך יוצרים עודף מודע,<br>
+      ואיך בונים שליטה ולא הישרדות.
+    </p>
+
+    <p>
+      ניהול הון —<br>
+      איך מסדרים הון קיים ועתידי,<br>
+      איך חושבים על סיכון, אופק ותכלית,<br>
+      ואיך שומרים שהכסף משרת מטרות — לא אשליות.
+    </p>
+
+    <div class="emphasis">
+      המטרה אינה “תשואה”.<br>
+      המטרה היא עצמאות.
     </div>
-  </section>
+  </div>
+</section>
 
-  <div class="divider"></div>
-
-  <!-- למי זה מיועד -->
-  <section id="audience">
-    <h2>למי זה מיועד</h2>
-    <p>אם אתה מרגיש ש:</p>
-    <ul>
-      <li>יש הרבה החלטות כלכליות, אבל אין שיטה או בהירות</li>
-      <li>ההתנהלות השוטפת “אוכלת” את היכולת לבנות עתיד</li>
-      <li>יש הון, חסכונות או כלים פיננסיים – אבל לא בטוח שהם עובדים נכון עבורך</li>
-      <li>אתה רוצה להבין, לשלוט, ולפעול מתוך שיקול דעת</li>
-    </ul>
-  </section>
-
-  <div class="divider"></div>
-
-  <!-- מה זה הליווי בפועל -->
-  <section id="process">
-    <h2>מה זה הליווי בפועל</h2>
+<!-- FIT -->
+<section>
+  <div class="container">
+    <h2>למי זה מתאים (ולמי לא)</h2>
 
     <p>
-      הליווי הוא תהליך <strong>לימודי־יישומי</strong> שנבנה שלב אחר שלב.
-      המטרה היא <strong>יכולת ניווט עצמאית מוצלחת</strong> בעולם הפיננסי לאורך החיים.
+      זה מתאים למי שמוכן ללמוד.<br>
+      למי שמוכן להטיל ספק.<br>
+      למי שמבין שידע קודם לפעולה.
     </p>
 
-    <h3>שכבה 1 – בהירות וכיוון</h3>
     <p>
-      בניית תמונה ברורה של החיים שאתה רוצה לבנות,
-      דיוק ערכים, רצונות, צרכים ומטרות —
-      לא רק כדי “לתכנן נכון”, אלא כדי
-      <strong>למקסם אושר ואיכות חיים</strong>.
+      זה לא מתאים למי שמחפש שיגידו לו מה לעשות,<br>
+      למי שרוצה קיצורי דרך,<br>
+      או למי שמחפש שקט זמני במקום שינוי עמוק.
     </p>
+  </div>
+</section>
 
-    <h3>שכבה 2 – קרקע: אוריינות פיננסית</h3>
+<!-- END -->
+<section class="soft">
+  <div class="container">
+    <h2>סיום פתוח</h2>
+
     <p>
-      הקניית ידע והבנה של כסף, כלים פיננסיים ואופן קבלת החלטות,
-      המאפשרים הסתכלות רחבה, מודעת ולא אימפולסיבית
-      על ההתנהלות הכלכלית.
+      אם משהו כאן גרם לך לעצור,<br>
+      אם עלו שאלות שלא עלו קודם —<br>
+      זה לא מקרי.
     </p>
 
-    <h3>שכבה 3 – שתי רגליים מרכזיות</h3>
-
-    <h4>רגל 1 — ניהול ההתנהלות השוטפת</h4>
     <p>
-      עבודה על ההכנסות וההוצאות בפועל,
-      דיוק, טיוב והתאמה של ההתנהלות היומיומית,
-      ובניית עודף מודע (“שומן”)
-      שניתן להפוך להשקעה ולהון.
+      אפשר להמשיך ללמוד יחד.<br>
+      לאט. לעומק.<br>
+      בצורה אחראית.
     </p>
 
-    <h4>רגל 2 — ניהול ההון</h4>
-    <p>
-      סידור נכון של ההון הקיים והעתידי,
-      התאמת רמות סיכון, חלונות זמן ואפיקים לשלב החיים ולמטרות,
-      וכן הקניית כלים לניהול,
-      <strong>בקרה ומעקב על כלל העולם הפיננסי</strong>,
-      כך שהשליטה נשארת אצלך.
-    </p>
-  </section>
+    <div class="emphasis">
+      הלמידה זהה ברוחה,<br>
+      אך הדרך — לעולם אישית.
+    </div>
+  </div>
+</section>
 
-  <div class="divider"></div>
-
-  <!-- איך נראה התהליך -->
-  <section id="steps">
-    <h2>איך נראה התהליך</h2>
-    <ol>
-      <li>בהירות ומיפוי – שאלות עומק והגדרת תמונת חיים, ערכים, מטרות ויעדים</li>
-      <li>בניית תשתית פיננסית – אוריינות פיננסית וסדר בכלים</li>
-      <li>יישום בהתנהלות השוטפת – עבודה על מאזן והרגלים</li>
-      <li>ניהול הון והטמעה – הבנת סיכון, זמן, החלטות והשקעות</li>
-      <li>
-        <strong>עצמאות</strong> – סט כלים, ידע, שיטה וביטחון
-        לקבל החלטות לבד לאורך זמן,
-        מתוך מקום של כוח ושליטה
-      </li>
-    </ol>
-  </section>
-
-  <div class="divider"></div>
-
-  <!-- מה יוצא -->
-  <section id="outcomes">
-    <h2>מה יוצא לך מהתהליך</h2>
-    <ul>
-      <li>בהירות בין ערכים, חיים והתנהלות כלכלית</li>
-      <li>שליטה בהתנהלות השוטפת</li>
-      <li>סדר ותמונה פיננסית ברורה</li>
-      <li>יכולת שימוש מושכלת בכלים פיננסיים</li>
-      <li>עצמאות לאורך זמן בעולם משתנה</li>
-    </ul>
-  </section>
-
-  <div class="divider"></div>
-
-  <!-- למי מתאים / לא מתאים -->
-  <section id="fit">
-    <h2>למי זה מתאים / לא מתאים</h2>
-
-    <h4>מתאים למי ש:</h4>
-    <ul>
-      <li>רוצה להבין, ללמוד וליישם</li>
-      <li>מחפש חיבור בין כסף לחיים עצמם</li>
-      <li>מוכן לקחת אחריות ולבנות דרך</li>
-    </ul>
-
-    <h4>לא מתאים למי ש:</h4>
-    <ul>
-      <li>לא מוכן להשקיע את מסגרת הלימוד הנדרשת ולעבוד בתהליך</li>
-      <li>מחפש פתרון מהיר או “טיפים” נקודתיים</li>
-      <li>רוצה שמישהו ינהל במקומו את הכסף</li>
-      <li>לא מוכן לקחת אחריות על החלטותיו</li>
-      <li>מחפש הקלה זמנית ולא שינוי עמוק</li>
-    </ul>
-  </section>
-
-  <div class="divider"></div>
-
-  <!-- שאלות נפוצות -->
-  <section id="faq">
-    <h2>שאלות נפוצות</h2>
-
-    <p><strong>זה ייעוץ השקעות / פנסיוני / ביטוחי?</strong><br/>
-    לא. זהו תהליך לימודי־יישומי להקניית ידע, הבנה ויכולת קבלת החלטות.</p>
-
-    <p><strong>אתה מנהל כסף או מבצע פעולות בפועל?</strong><br/>
-    לא. המטרה היא עצמאות מלאה שלך.</p>
-
-    <p><strong>כמה זמן זה לוקח?</strong><br/>
-    כחצי שנה. השלב הראשוני אינטנסיבי יותר,
-    ובהמשך עצימות המפגשים פוחתת בהתאם לעלייה בעצמאות.</p>
-  </section>
-
-  <div class="divider"></div>
-
-  <!-- יצירת קשר -->
-  <section id="contact">
-    <h2>שיחת היכרות</h2>
-    <p class="muted">
-      האתר נועד להתרשמות מהגישה והתהליך.<br/>
-      פרטי קשר יתווספו בשלב מאוחר יותר.
-    </p>
-  </section>
-
-  <footer>
-    האתר והתהליך מיועדים לחינוך פיננסי והקניית ידע וכלים בלבד.<br/>
+<footer>
+  <div class="container">
+    האתר והתוכן מיועדים לחינוך פיננסי והקניית ידע בלבד.<br>
     אין באמור ייעוץ השקעות, פנסיוני או ביטוחי.
-  </footer>
-
-</div>
+  </div>
+</footer>
 
 </body>
 </html>
