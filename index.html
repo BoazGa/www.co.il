@@ -10,27 +10,29 @@
     @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700&display=swap');
 
     :root {
-      --bg-dark: #0b1220;
+      --bg-dark: #0f172a;
       --bg-light: #ffffff;
-      --bg-soft: #f4f6f8;
-      --text-dark: #0b1220;
+      --bg-soft: #f6f7f9;
+      --text-dark: #0f172a;
       --text-light: #e5e7eb;
-      --text-muted: #6b7280;
-      --accent: #9aa4b2;
+      --text-muted: #64748b;
+      --accent: #94a3b8;
     }
 
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
 
     body {
       margin: 0;
       font-family: 'Assistant', system-ui, sans-serif;
-      line-height: 1.95;
+      line-height: 1.9;
       background: var(--bg-light);
       color: var(--text-dark);
     }
 
     .container {
-      max-width: 640px;
+      max-width: 680px;
       margin: auto;
       padding: 0 20px;
     }
@@ -39,24 +41,24 @@
     .hero {
       background: var(--bg-dark);
       color: var(--text-light);
-      padding: 160px 0 140px;
+      padding: 140px 0 120px;
     }
 
     .hero h1 {
-      font-size: 2.3rem;
+      font-size: 2.4rem;
       font-weight: 600;
-      margin-bottom: 2.5rem;
+      margin-bottom: 2rem;
     }
 
     .hero p {
       font-size: 1.15rem;
-      color: #c7d2fe;
+      color: #cbd5f5;
       max-width: 520px;
     }
 
     .hero .continue {
       display: inline-block;
-      margin-top: 56px;
+      margin-top: 48px;
       color: var(--text-light);
       text-decoration: none;
       border-bottom: 1px solid var(--accent);
@@ -66,7 +68,7 @@
 
     /* SECTIONS */
     section {
-      padding: 110px 0;
+      padding: 100px 0;
     }
 
     section.soft {
@@ -74,40 +76,30 @@
     }
 
     section h2 {
-      font-size: 1.55rem;
-      margin-bottom: 2.8rem;
+      font-size: 1.6rem;
+      margin-bottom: 2.5rem;
       font-weight: 600;
     }
 
     p {
-      margin: 1.6rem 0;
+      margin: 1.4rem 0;
     }
 
-    /* FINAL PRINCIPLE */
-    .principle {
-      background: var(--bg-dark);
-      color: var(--text-light);
-      padding: 160px 0;
+    /* CORE STATEMENT */
+    .core-statement {
+      margin: 6rem 0 2rem;
+      padding: 2.5rem 0;
+      font-size: 1.4rem;
+      font-weight: 600;
       text-align: center;
-    }
-
-    .principle .statement {
-      font-size: 2.2rem;
-      font-weight: 700;
-      line-height: 1.4;
-      max-width: 520px;
-      margin: auto;
-    }
-
-    .principle .sub {
-      margin-top: 3rem;
-      font-size: 1rem;
-      color: #cbd5e1;
+      color: var(--text-dark);
+      border-top: 1px solid var(--accent);
+      border-bottom: 1px solid var(--accent);
     }
 
     /* FOOTER */
     footer {
-      padding: 90px 0;
+      padding: 80px 0;
       font-size: 0.9rem;
       color: var(--text-muted);
       border-top: 1px solid #e5e7eb;
@@ -115,20 +107,17 @@
 
     /* MOBILE */
     @media (max-width: 640px) {
+      .hero {
+        padding: 100px 0 80px;
+      }
+
       .hero h1 {
         font-size: 1.8rem;
       }
 
-      .principle .statement {
-        font-size: 1.6rem;
-      }
-
-      .hero {
-        padding: 120px 0 100px;
-      }
-
-      .principle {
-        padding: 120px 0;
+      .core-statement {
+        font-size: 1.2rem;
+        padding: 2rem 0;
       }
     }
   </style>
@@ -172,8 +161,19 @@
     <h2>למה בכלל כסף</h2>
 
     <p>
-      כסף נוגע כמעט בכל החלטה חשובה בחיים.<br>
-      ובכל זאת — רוב האנשים מעולם לא למדו לחשוב עליו לעומק.
+      כסף נוגע כמעט בכל החלטה חשובה בחיים:<br>
+      איפה נגור, איך נחיה, כמה נעבוד, ממה נחשוש, למה נשאף.
+    </p>
+
+    <p>
+      ובכל זאת —<br>
+      רוב האנשים מעולם לא למדו לחשוב עליו לעומק.
+    </p>
+
+    <p>
+      לא איך הוא עובד באמת,<br>
+      לא איך הוא משפיע על התודעה,<br>
+      ולא איך החלטות פיננסיות משקפות ערכים, פחדים ורצונות.
     </p>
 
     <p>
@@ -191,13 +191,24 @@
 
     <p>
       אני לא מאמין בפתרונות מהירים.<br>
-      ולא בהאצלת אחריות.
+      וגם לא בהאצלת אחריות.
+    </p>
+
+    <p>
+      אני לא מייעץ, לא מנהל כסף,<br>
+      ולא אומר לאנשים מה לעשות.
     </p>
 
     <p>
       אני עוסק בלמידה.<br>
       בהבנה.<br>
       ובבניית יכולת קבלת החלטות.
+    </p>
+
+    <p>
+      ההנחה פשוטה:<br>
+      אדם שמבין — פועל אחרת.<br>
+      אדם שפועל אחרת — בונה מציאות אחרת.
     </p>
   </div>
 </section>
@@ -208,28 +219,94 @@
     <h2>על בהירות, ערכים וכיוון</h2>
 
     <p>
-      כשיש בהירות לגבי מי אני ומה אני רוצה מהחיים —<br>
-      הכסף הופך מכלי שמייצר רעש<br>
-      לכלי שמייצר כיוון.
+      לפני שמדברים על כלים,<br>
+      צריך לשאול שאלות שרוב האנשים לא עוצרים לשאול:
+    </p>
+
+    <p>
+      מה באמת חשוב לי?<br>
+      מה עושה אותי מאושר?<br>
+      איזו מציאות אני מנסה לבנות?
+    </p>
+
+    <p>
+      כשיש בהירות לגבי מי אני,<br>
+      ומה אני רוצה מהחיים —<br>
+      הכסף מפסיק להיות מקור לרעש,<br>
+      והופך לכלי מדויק.
     </p>
 
     <p>
       מאחר ואין שני אנשים שחיים את אותם חיים,<br>
-      גם אין שתי דרכים פיננסיות זהות.
+      גם אין שתי דרכים פיננסיות זהות.<br>
+      התהליך אינו נבנה מראש,<br>
+      אלא מתפתח מתוך האדם עצמו —<br>
+      הערכים, המטרות, הקצב והמורכבות הייחודית שלו.
+    </p>
+
+    <p>
+      בלי בהירות —<br>
+      גם החלטה פיננסית “נכונה”<br>
+      עלולה לשרת חיים שלא רצינו.
     </p>
   </div>
 </section>
 
-<!-- FINAL PRINCIPLE -->
-<section class="principle">
+<!-- PROCESS -->
+<section class="soft">
   <div class="container">
-    <div class="statement">
+    <h2>איך נראה תהליך של למידה פיננסית אמיתית</h2>
+
+    <p>
+      התהליך אינו ליניארי,<br>
+      אבל יש לו היגיון פנימי ברור.
+    </p>
+
+    <p>
+      ראשית — בניית אוריינות פיננסית:<br>
+      הבנה של כסף, סיכון, זמן, החלטות וכלים.
+    </p>
+
+    <p>
+      לאחר מכן — שתי רגליים מרכזיות:
+    </p>
+
+    <p>
+      התנהלות שוטפת —<br>
+      איך כסף נכנס ויוצא בפועל,<br>
+      איך יוצרים עודף מודע,<br>
+      ואיך בונים שליטה ולא הישרדות.
+    </p>
+
+    <p>
+      ניהול הון —<br>
+      איך מסדרים הון קיים ועתידי,<br>
+      איך חושבים על סיכון, אופק ותכלית,<br>
+      ואיך שומרים שהכסף משרת מטרות — לא אשליות.
+    </p>
+  </div>
+</section>
+
+<!-- END -->
+<section>
+  <div class="container">
+    <h2>מחשבה לסיום</h2>
+
+    <p>
+      אם משהו כאן גרם לך לעצור,<br>
+      אם עלו שאלות שלא עלו קודם —<br>
+      זה לא מקרי.
+    </p>
+
+    <p>
+      אפשר להמשיך ללמוד יחד.<br>
+      לאט. לעומק.<br>
+      בצורה אחראית.
+    </p>
+
+    <div class="core-statement">
       הלמידה זהה ברוחה.<br>
       הדרך — לעולם אישית.
-    </div>
-
-    <div class="sub">
-      זה העיקרון שמחזיק את כל התהליך.
     </div>
   </div>
 </section>
