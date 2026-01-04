@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wealth With Purpose</title>
+  <meta name="description" content="A philosophical, educational approach to financial clarity, autonomy, and purposeful wealth.">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    :root {
+      --bg-dark: #0f172a;
+      --bg-light: #ffffff;
+      --bg-soft: #f6f7f9;
+      --text-dark: #0f172a;
+      --text-light: #e5e7eb;
+      --text-muted: #64748b;
+      --accent: #94a3b8;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', system-ui, sans-serif;
+      line-height: 1.85;
+      background: var(--bg-light);
+      color: var(--text-dark);
+    }
+
+    .container {
+      max-width: 700px;
+      margin: auto;
+      padding: 0 20px;
+    }
+
+    /* HERO */
+    .hero {
+      background: var(--bg-dark);
+      color: var(--text-light);
+      padding: 150px 0 130px;
+    }
+
+    .hero h1 {
+      font-size: 2.6rem;
+      font-weight: 600;
+      margin-bottom: 2.5rem;
+    }
+
+    .hero p {
+      font-size: 1.15rem;
+      color: #cbd5f5;
+      max-width: 560px;
+    }
+
+    .hero .continue {
+      display: inline-block;
+      margin-top: 56px;
+      color: var(--text-light);
+      text-decoration: none;
+      border-bottom: 1px solid var(--accent);
+      padding-bottom: 4px;
+      font-size: 0.95rem;
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 110px 0;
+    }
+
+    section.soft {
+      background: var(--bg-soft);
+    }
+
+    section h2 {
+      font-size: 1.7rem;
+      margin-bottom: 2.8rem;
+      font-weight: 600;
+    }
+
+    p {
+      margin: 1.6rem 0;
+    }
+
+    /* EMPHASIS */
+    .emphasis {
+      margin: 5rem 0 2rem;
+      padding: 2.5rem 0;
+      font-size: 1.4rem;
+      font-weight: 600;
+      text-align: center;
+      color: var(--text-dark);
+      border-top: 1px solid var(--accent);
+      border-bottom: 1px solid var(--accent);
+    }
+
+    /* FOOTER */
+    footer {
+      padding: 90px 0;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      border-top: 1px solid #e5e7eb;
+    }
+
+    /* MOBILE */
+    @media (max-width: 640px) {
+      .hero {
+        padding: 120px 0 100px;
+      }
+
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .emphasis {
+        font-size: 1.2rem;
+      }
+    }
+    .lang-switch {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  font-size: 0.85rem;
+}
+
+.lang-switch a {
+  color: var(--text-light);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent);
+  padding-bottom: 2px;
+}
+
+  </style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="lang-switch">
+  <a href="/">← עברית</a>
+</div>
+
+    <h1>Wealth With Purpose</h1>
+
+    <p>
+      Money is not the goal.<br>
+      It is a tool.<br>
+      And not everyone who holds it knows how to use it wisely.
+    </p>
+
+    <p>
+      This is a financial learning process for people<br>
+      who want clarity, alignment, and the ability to navigate on their own<br>
+      in a world where most decisions are made without reflection.
+    </p>
+
+    <p>
+      This is an applied, learning-based process.<br>
+      Not advice. Not management.<br>
+      Learning.
+    </p>
+
+    <a href="#start" class="continue">Continue reading</a>
+  </div>
+</section>
+
+<!-- WHY MONEY -->
+<section id="start">
+  <div class="container">
+    <h2>Why Money Matters</h2>
+
+    <p>
+      Money shapes nearly every meaningful choice we make in life:<br>
+      where we live, how we work, what we fear, and what we pursue.
+    </p>
+
+    <p>
+      And yet,<br>
+      most people were never taught how to think about money in a deep, structured way.
+    </p>
+
+    <p>
+      Not how it truly works,<br>
+      not how it influences behavior and decision-making,<br>
+      and not how financial choices reflect values, fears, and aspirations.
+    </p>
+
+    <p>
+      The result is almost always the same:<br>
+      financial reality begins to dictate life,<br>
+      instead of serving it.
+    </p>
+  </div>
+</section>
+
+<!-- POINT OF VIEW -->
+<section class="soft">
+  <div class="container">
+    <h2>My Starting Point</h2>
+
+    <p>
+      I do not believe in quick fixes.<br>
+      And I do not believe in outsourcing responsibility.
+    </p>
+
+    <p>
+      I do not give financial advice.<br>
+      I do not manage money.<br>
+      And I do not tell people what to do.
+    </p>
+
+    <p>
+      My work is centered on learning.<br>
+      On understanding.<br>
+      And on building the capacity to make sound, independent decisions.
+    </p>
+
+    <p>
+      The assumption is simple:<br>
+      A person who understands acts differently.<br>
+      A person who acts differently builds a different reality.
+    </p>
+  </div>
+</section>
+
+<!-- CLARITY -->
+<section>
+  <div class="container">
+    <h2>Clarity, Values, and Direction</h2>
+
+    <p>
+      Before discussing tools,<br>
+      there are questions most people never pause to ask:
+    </p>
+
+    <p>
+      What truly matters to me?<br>
+      What gives my life meaning?<br>
+      What kind of future am I actually trying to build?
+    </p>
+
+    <p>
+      When there is clarity about who I am<br>
+      and what I want from life,<br>
+      money stops being noise<br>
+      and becomes a precise instrument.
+    </p>
+
+    <p>
+      Because no two people live the same life,<br>
+      there are no identical financial paths.<br>
+      The process is not predesigned,<br>
+      but develops from the individual —<br>
+      their values, goals, pace, and complexity.
+    </p>
+
+    <p>
+      Without clarity,<br>
+      even a “correct” financial decision<br>
+      may serve a life we never intended to live.
+    </p>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="soft">
+  <div class="container">
+    <h2>What Real Financial Learning Looks Like</h2>
+
+    <p>
+      The process is not linear,<br>
+      but it follows a clear internal logic.
+    </p>
+
+    <p>
+      It begins with financial literacy:<br>
+      understanding money, risk, time, decisions, and tools.
+    </p>
+
+    <p>
+      From there, two central pillars emerge:
+    </p>
+
+    <p>
+      <strong>Day-to-day financial behavior</strong> —<br>
+      how money flows in and out,<br>
+      how conscious surplus is created,<br>
+      and how control replaces survival.
+    </p>
+
+    <p>
+      <strong>Capital and wealth management</strong> —<br>
+      structuring existing and future capital,<br>
+      thinking in terms of risk, time horizon, and purpose,<br>
+      and ensuring that money serves goals — not illusions.
+    </p>
+  </div>
+</section>
+
+<!-- FINAL THOUGHT -->
+<section>
+  <div class="container">
+    <h2>A Thought to Close</h2>
+
+    <p>
+      If something here caused you to pause,<br>
+      if questions arose that had not arisen before —<br>
+      that is not accidental.
+    </p>
+
+    <p>
+      Learning can continue.<br>
+      Slowly. Thoughtfully.<br>
+      With responsibility.
+    </p>
+
+    <div class="emphasis">
+      The learning is shared in spirit.<br>
+      The path is always personal.
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    This site provides financial education and literacy only.<br>
+    It does not constitute investment, pension, or insurance advice.
+  </div>
+</footer>
+
+</body>
+</html>
