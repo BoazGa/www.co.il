@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ממצים עושר. מגשימים אושר.</title>
+  <meta name="description" content="ליווי פיננסי פילוסופי־רעיוני לאנשים שרוצים להבין, ללמוד ולנווט בעצמם.">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700&display=swap');
+
+    :root {
+      --bg-dark: #0f172a;
+      --bg-light: #ffffff;
+      --bg-soft: #f6f7f9;
+      --text-dark: #0f172a;
+      --text-light: #e5e7eb;
+      --text-muted: #64748b;
+      --accent: #94a3b8;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Assistant', system-ui, sans-serif;
+      line-height: 1.9;
+      background: var(--bg-light);
+      color: var(--text-dark);
+    }
+
+    .container {
+      max-width: 680px;
+      margin: auto;
+      padding: 0 20px;
+    }
+
+    /* HERO */
+    .hero {
+      background: var(--bg-dark);
+      color: var(--text-light);
+      padding: 140px 0 120px;
+    }
+
+    .hero h1 {
+      font-size: 2.4rem;
+      font-weight: 600;
+      margin-bottom: 2rem;
+    }
+
+    .hero p {
+      font-size: 1.15rem;
+      color: #cbd5f5;
+      max-width: 520px;
+    }
+
+    .hero .continue {
+      display: inline-block;
+      margin-top: 48px;
+      color: var(--text-light);
+      text-decoration: none;
+      border-bottom: 1px solid var(--accent);
+      padding-bottom: 4px;
+      font-size: 0.95rem;
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 100px 0;
+    }
+
+    section.soft {
+      background: var(--bg-soft);
+    }
+
+    section h2 {
+      font-size: 1.6rem;
+      margin-bottom: 2.5rem;
+      font-weight: 600;
+    }
+
+    p {
+      margin: 1.4rem 0;
+    }
+
+    /* CORE STATEMENT */
+    .core-statement {
+      margin: 6rem 0 2rem;
+      padding: 2.5rem 0;
+      font-size: 1.4rem;
+      font-weight: 600;
+      text-align: center;
+      color: var(--text-dark);
+      border-top: 1px solid var(--accent);
+      border-bottom: 1px solid var(--accent);
+    }
+
+    /* FOOTER */
+    footer {
+      padding: 80px 0;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      border-top: 1px solid #e5e7eb;
+    }
+
+    /* MOBILE */
+    @media (max-width: 640px) {
+      .hero {
+        padding: 100px 0 80px;
+      }
+
+      .hero h1 {
+        font-size: 1.8rem;
+      }
+
+      .core-statement {
+        font-size: 1.2rem;
+        padding: 2rem 0;
+      }
+    }
+    .lang-switch {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  font-size: 0.85rem;
+}
+
+.lang-switch a {
+  color: var(--text-light);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent);
+  padding-bottom: 2px;
+}
+
+  </style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="lang-switch">
+  <a href="/en/">English →</a>
+</div>
+
+    <h1>
+      ממצים עושר.<br>
+      מגשימים אושר.
+    </h1>
+
+    <p>
+      כסף הוא לא המטרה.<br>
+      הוא כלי.<br>
+      ולא כל מי שמחזיק בו — יודע להשתמש בו נכון.
+    </p>
+
+    <p>
+      זהו ליווי פיננסי לאנשים<br>
+      שרוצים להבין, לכייל ולנווט בעצמם,<br>
+      בעולם שבו רוב ההחלטות מתקבלות בלי מחשבה.
+    </p>
+
+    <p>
+      זה תהליך לימודי־יישומי.<br>
+      לא ייעוץ. לא ניהול.<br>
+      למידה.
+    </p>
+
+    <a href="#start" class="continue">להמשיך לקרוא</a>
+  </div>
+</section>
+
+<!-- WHY MONEY -->
+<section id="start">
+  <div class="container">
+    <h2>למה בכלל כסף</h2>
+
+    <p>
+      כסף נוגע כמעט בכל החלטה חשובה בחיים:<br>
+      איפה נגור, איך נחיה, כמה נעבוד, ממה נחשוש, למה נשאף.
+    </p>
+
+    <p>
+      ובכל זאת —<br>
+      רוב האנשים מעולם לא למדו לחשוב עליו לעומק.
+    </p>
+
+    <p>
+      לא איך הוא עובד באמת,<br>
+      לא איך הוא משפיע על התודעה,<br>
+      ולא איך החלטות פיננסיות משקפות ערכים, פחדים ורצונות.
+    </p>
+
+    <p>
+      התוצאה כמעט תמיד זהה:<br>
+      המציאות הכלכלית מתחילה לנהל את האדם,<br>
+      במקום לשרת אותו.
+    </p>
+  </div>
+</section>
+
+<!-- POINT OF VIEW -->
+<section class="soft">
+  <div class="container">
+    <h2>נקודת המוצא שלי</h2>
+
+    <p>
+      אני לא מאמין בפתרונות מהירים.<br>
+      וגם לא בהאצלת אחריות.
+    </p>
+
+    <p>
+      אני לא מייעץ, לא מנהל כסף,<br>
+      ולא אומר לאנשים מה לעשות.
+    </p>
+
+    <p>
+      אני עוסק בלמידה.<br>
+      בהבנה.<br>
+      ובבניית יכולת קבלת החלטות.
+    </p>
+
+    <p>
+      ההנחה פשוטה:<br>
+      אדם שמבין — פועל אחרת.<br>
+      אדם שפועל אחרת — בונה מציאות אחרת.
+    </p>
+  </div>
+</section>
+
+<!-- CLARITY -->
+<section>
+  <div class="container">
+    <h2>על בהירות, ערכים וכיוון</h2>
+
+    <p>
+      לפני שמדברים על כלים,<br>
+      צריך לשאול שאלות שרוב האנשים לא עוצרים לשאול:
+    </p>
+
+    <p>
+      מה באמת חשוב לי?<br>
+      מה עושה אותי מאושר?<br>
+      איזו מציאות אני מנסה לבנות?
+    </p>
+
+    <p>
+      כשיש בהירות לגבי מי אני,<br>
+      ומה אני רוצה מהחיים —<br>
+      הכסף מפסיק להיות מקור לרעש,<br>
+      והופך לכלי מדויק.
+    </p>
+
+    <p>
+      מאחר ואין שני אנשים שחיים את אותם חיים,<br>
+      גם אין שתי דרכים פיננסיות זהות.<br>
+      התהליך אינו נבנה מראש,<br>
+      אלא מתפתח מתוך האדם עצמו —<br>
+      הערכים, המטרות, הקצב והמורכבות הייחודית שלו.
+    </p>
+
+    <p>
+      בלי בהירות —<br>
+      גם החלטה פיננסית “נכונה”<br>
+      עלולה לשרת חיים שלא רצינו.
+    </p>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="soft">
+  <div class="container">
+    <h2>איך נראה תהליך של למידה פיננסית אמיתית</h2>
+
+    <p>
+      התהליך אינו ליניארי,<br>
+      אבל יש לו היגיון פנימי ברור.
+    </p>
+
+    <p>
+      ראשית — בניית אוריינות פיננסית:<br>
+      הבנה של כסף, סיכון, זמן, החלטות וכלים.
+    </p>
+
+    <p>
+      לאחר מכן — שתי רגליים מרכזיות:
+    </p>
+
+    <p>
+      התנהלות שוטפת —<br>
+      איך כסף נכנס ויוצא בפועל,<br>
+      איך יוצרים עודף מודע,<br>
+      ואיך בונים שליטה ולא הישרדות.
+    </p>
+
+    <p>
+      ניהול הון —<br>
+      איך מסדרים הון קיים ועתידי,<br>
+      איך חושבים על סיכון, אופק ותכלית,<br>
+      ואיך שומרים שהכסף משרת מטרות — לא אשליות.
+    </p>
+  </div>
+</section>
+
+<!-- END -->
+<section>
+  <div class="container">
+    <h2>מחשבה לסיום</h2>
+
+    <p>
+      אם משהו כאן גרם לך לעצור,<br>
+      אם עלו שאלות שלא עלו קודם —<br>
+      זה לא מקרי.
+    </p>
+
+    <p>
+      אפשר להמשיך ללמוד יחד.<br>
+      לאט. לעומק.<br>
+      בצורה אחראית.
+    </p>
+
+    <div class="core-statement">
+      הלמידה זהה ברוחה.<br>
+      הדרך — לעולם אישית.
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    האתר והתוכן מיועדים לחינוך פיננסי והקניית ידע בלבד.<br>
+    אין באמור ייעוץ השקעות, פנסיוני או ביטוחי.
+  </div>
+</footer>
+
+</body>
+</html>
