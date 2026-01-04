@@ -42,18 +42,39 @@
       background: var(--bg-dark);
       color: var(--text-light);
       padding: 150px 0 130px;
+      position: relative;
     }
 
-    .hero h1 {
+    /* Brand block */
+    .brand-en {
+      margin-bottom: 3.5rem;
+    }
+
+    .brand-en img {
+      width: 64px;
+      height: auto;
+      margin-bottom: 1.4rem;
+    }
+
+    .brand-en h1 {
       font-size: 2.6rem;
       font-weight: 600;
-      margin-bottom: 2.5rem;
+      margin: 0;
+    }
+
+    .brand-en .subtitle {
+      margin-top: 0.6rem;
+      font-size: 0.9rem;
+      font-weight: 400;
+      color: var(--accent);
+      letter-spacing: 0.04em;
     }
 
     .hero p {
       font-size: 1.15rem;
       color: #cbd5f5;
       max-width: 560px;
+      margin: 1.6rem 0;
     }
 
     .hero .continue {
@@ -64,6 +85,21 @@
       border-bottom: 1px solid var(--accent);
       padding-bottom: 4px;
       font-size: 0.95rem;
+    }
+
+    /* Language switch */
+    .lang-switch {
+      position: absolute;
+      top: 24px;
+      left: 24px;
+      font-size: 0.85rem;
+    }
+
+    .lang-switch a {
+      color: var(--text-light);
+      text-decoration: none;
+      border-bottom: 1px solid var(--accent);
+      padding-bottom: 2px;
     }
 
     /* SECTIONS */
@@ -111,28 +147,18 @@
         padding: 120px 0 100px;
       }
 
-      .hero h1 {
+      .brand-en h1 {
         font-size: 2rem;
+      }
+
+      .brand-en img {
+        width: 52px;
       }
 
       .emphasis {
         font-size: 1.2rem;
       }
     }
-    .lang-switch {
-  position: absolute;
-  top: 24px;
-  left: 24px;
-  font-size: 0.85rem;
-}
-
-.lang-switch a {
-  color: var(--text-light);
-  text-decoration: none;
-  border-bottom: 1px solid var(--accent);
-  padding-bottom: 2px;
-}
-
   </style>
 </head>
 
@@ -140,12 +166,17 @@
 
 <!-- HERO -->
 <section class="hero">
-  <div class="container">
-    <div class="lang-switch">
-  <a href="/">← עברית</a>
-</div>
+  <div class="lang-switch">
+    <a href="/">← עברית</a>
+  </div>
 
-    <h1>Wealth With Purpose</h1>
+  <div class="container">
+
+    <div class="brand-en">
+      <img src="/assets/wwp-logo.svg" alt="Wealth With Purpose logo">
+      <h1>Wealth With Purpose</h1>
+      <div class="subtitle">Financial Mentoring</div>
+    </div>
 
     <p>
       Money is not the goal.<br>
